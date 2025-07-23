@@ -7,9 +7,11 @@
     "build": "tsc"
   },
   "dependencies": {
+    "ajv": "^8.17.1",
     "ollama": "^0.5.16"
   },
   "devDependencies": {
+    "@types/node": "^24.1.0",
     "typescript": "^5.5.3"
   },
   "private": true
