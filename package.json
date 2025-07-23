@@ -1,12 +1,14 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "promptest",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ollama": "^0.5.16"
+  },
   "devDependencies": {
     "typescript": "^5.5.3"
   },
