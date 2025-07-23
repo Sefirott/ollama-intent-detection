@@ -1,7 +1,7 @@
 import ollama from 'ollama';
-import { isSSRQuery } from './intentDetection.js';
-import { buildSSRPrompt, buildNaturalPrompt } from './promptBuilder.js';
-import { validateSSRResponse } from './validator.js';
+import { isSSRQuery } from './intentDetection.ts';
+import { buildSSRPrompt, buildNaturalPrompt } from './promptBuilder.ts';
+import { validateSSRResponse } from './validator.ts';
 
 async function run(query: string) {
     const isSSR = await isSSRQuery(query);

@@ -7,7 +7,7 @@ Query: "${userInput}"
 Respond with just: yes or no.`;
 
     const response = await ollama.chat({
-        model: 'mistral',
+        model: 'llama3.1:8b',
         messages: [{ role: 'user', content: prompt }],
     });
 
